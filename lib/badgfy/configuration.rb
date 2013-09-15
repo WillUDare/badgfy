@@ -1,10 +1,13 @@
 module Badgfy
   class Configuration
 
-    attr_accessor :api_key
+    attr_accessor :app_id, :app_secret, :username, :password
 
     def initialize
-      @api_key = nil
+      @app_id     = ""
+      @app_secret = ""
+      @usernam    = ""
+      @password   = ""
     end
 
   end
