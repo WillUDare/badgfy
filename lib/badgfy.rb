@@ -22,5 +22,9 @@ module Badgfy
       yield config
     end
 
+    def api_url_base
+      "http://localhost:3000/"
+    end
+
   end
 end

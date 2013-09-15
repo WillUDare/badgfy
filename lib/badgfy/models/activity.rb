@@ -5,7 +5,6 @@ module Badgfy
       self.prefix = "/sites/:site_id/"
 
       def create
-        puts "HERE"
         Base::token.create(params)
       end
 
